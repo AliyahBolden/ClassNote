@@ -1,0 +1,50 @@
+
+table th, table td{
+    font-size:  0.8em;
+}
+
+table .warning{
+    opacity: 0.3;
+}
+
+li img{
+    width: 70%;
+    height: auto;
+    margin: 1em;
+}
+.span-class{
+    color: #00B22F;
+}
+.tab-content{
+    margin-bottom: 20em;
+}
+
+.img-cellphone{
+    width: 50%;
+}
+
+
+#menu-main{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100em;
+}
+
+/*
+#myTab li {
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.nav-pills>li>a, .nav-pills>li.active>a{
+    color: black;
+    border:1px;
+}
+
+.nav-pills>li>a {
+    border-radius: 0;
+}
+.nav>li>a {
+    padding: 0.5em;
+*/
+

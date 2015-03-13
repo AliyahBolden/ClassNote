@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WEBPROJECTS</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="menu-main">
+            <div class="col-xs-2">
+                <ul class="nav nav-pills nav-stacked text-center" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li role="presentation"><a href="week1.html">Week 1 - Feb 2</a>
+                    </li>
+                    <li role="presentation"><a href="week2.html">Week 2 - Feb 9</a>
+                    </li>
+                    <li role="presentation"><a href="week3.html">Week 3 - Feb 23</a>
+                    </li>
+                    <li role="presentation"><a href="week4.html">Week 4- March 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-2">
+             <h1>Week 1</h1>
+                <h2>Set up Bracket, Github, and publish your first github hosted website</h2>
+                <ol>
+                    <li>Download Brackets from Brackets.io if you don't have it installed yet.</li>
+                    <li>Go to Finder=>Document folder and create a new folder called WEBPROJECTS
+                        <li>Open Brackets, create a new file called index.html, type "my first github website" and save it in the WEBPROJECTS folder created from the above step.</li>
+                        <li>Go to github.com. Create a new account, and choose to set up a free plan.
+                            <img class="img-responsive" src="img/githubaccount.png">
+                        </li>
+                        <li>After clicing "Finishing sign up", go to your email account and verify your email address.</li>
+                        <li>Open Github on your computer, sign into the account you just created on github.com</li>
+                        <li>Click the "+" sign on the upper left corner, choose "add", and the path Document/WEBPROJECTS
+                            <p class="alert alert-success">Warning 1! The default repo setting is "create", make sure you click "add", which is the tab to the left of "create"</p>
+                            <img class="img-responsive" src="img/addgitfolder.png">
+                            <p class="alert alert-success">Warning 2! When you add the path, it's very important that you click on the WEBPROJECTS folder icon just once, so that the folder icon is highlighted, but you can't see the files that's actually inside the WEBPROJECTS folder.
+                            </p>
+                            <img class="img-responsive" src="img/addpath.jpg">
+                        </li>
+                        <em>Now, if you go to your WEBPROJECTS folder, you should see a subfolder named .git. This folder contains files that will help you perform version control automatically from this point on.</em>
+                        <li>In Github, type "first commit" in symmary, click <span class="badge">commit</span> button, and <span class="badge">publish</span> button at the top right corner
+                            <img class="img-responsive" src="img/firstcommit.png">
+                            <img class="img-responsive" src="img/publish.png">
+                        </li>
+                        <li>Now, click <span class="badge">branch</span>tab at the top middle bar, and create a new branch called “gh-pages”.
+                            <img class="img-responsive" src="img/createbranch.jpg">
+                        </li>
+                        <li>Make sure "gh-pages" is now selected as current branch.</li>
+                        <li>After "gh-pages" is created successfully, you can view your page on http://[github user name].github.io/[repo name].
+                            <ul>
+                                <li>for example, if you go to http://zhenzhenBMCC.github.io/WEBPROJECTS, you should see "my first github webiste" on that page.</li>
+                            </ul>
+                            <div class="alert alert-success" role="alert">Congratulations! You just hosted your first website through Github Pages.</div>
+                        </li>
+                        <li>Now, go back to Brackets at type something more, go to Github <span class="badge">Changes</span>tab on the top, type "second commit", click <span class="badge">Commit</span>, then<span class="badge">sync</span>, your website should be updated automatically.
+                        </li>
+                        <li>Take a look at the <span class="badge">History</span>tab of your github, you can see notes and history from all your past commits.
+                            <p>If anything goes wrong at any point during development, you can always go to "history", choose a previous version and rollback to this old version. See picture below.
+                            </p>
+                            <img class="img-responsive" src="img/rollback.jpg">
+                        </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
